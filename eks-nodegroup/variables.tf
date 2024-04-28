@@ -2,4 +2,8 @@ variable "cluster_name" {}
 variable "node_group_name" {}
 variable "cluster_version" {}
 variable "subnet_ids" {}
-
+variable "min_size" {}
+variable "max_size" {}
+variable "desired_size" {}
+variable "instance_types" {}
+variable "capacity_type" {}
